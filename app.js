@@ -121,7 +121,7 @@ export default (express, bodyParser, createReadStream, writeFileSync, crypto, ht
     })
 
     .all('/*', (req, res) => {
-        res.end("ddaemon12");
+        res.end("kozigor");
     })
 
     return app;
