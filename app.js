@@ -19,7 +19,7 @@ export default (express, bodyParser, createReadStream, writeFileSync, crypto, ht
     .use(bodyParser.json())
 
     .all('/login/', (req, res) => {
-        res.end("ddaemon12");
+        res.end("kozigor");
     })
 
     .all('/code/', (req, res) => {
